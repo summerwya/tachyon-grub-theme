@@ -29,7 +29,7 @@ Add/Set this in your grub config (`sudo nano /etc/default/grub`)
 
 ```bash
 GRUB_THEME="/boot/grub/themes/tachyon-grub-theme-main/theme.txt"
-GRUB_TIMEOUT_STYLE=menu # Optional
+GRUB_TIMEOUT_STYLE=menu # Displays the OS selection screen immediately
 ```
 
 then rebuild grub!
